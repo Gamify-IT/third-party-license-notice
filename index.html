@@ -36,69 +36,82 @@
 <section>
     <h1>Third Party License Notice</h1>
 
-    <table id='table'>
-        <tr>
-            <th>License type</th>
-            <th>Component name</th>
-            <th>Version</th>
-            <th>Copyright</th>
-        </tr>
+    <div id="licenseNotes"></div>
 
-        <script>
-            $(document).ready(function () {
-                $.getJSON("LicenseNotes.json",
-                    function (data) {
-                        var licenseNote = '';
+    <script>
+        $(document).ready(function () {
+            $.getJSON("LicenseNotes.json",
+                function (data) {
+                    var licenseNote = '';
+
+                    const licenseTypes = new Array();
+
+                    $.each(data, function (key, value) {
+                        licenseTypes.push(value.licTypeName);
+                    });
+
+                    for(var i = 0; i < licenseTypes.length; i++) {
+                        if(!licenseNote.includes('<b><center><h3>'+licenseTypes[i]+'</h3></center></b>')){
+                            licenseNote += '<b><center><h3>'+licenseTypes[i]+'</h3></center></b>';
+                            licenseNote += '<table id="table">' +
+                                '        <tr>' +
+                                '            <th>Component name</th>' +
+                                '            <th>Version</th>' +
+                                '            <th>Copyright</th>' +
+                                '        </tr>';
+                        }
 
                         $.each(data, function (key, value) {
+                            if(licenseTypes[i] == value.licTypeName){
+                                var avoidDuplicatesString = "";
+                                avoidDuplicatesString += '<tr>';
+                                avoidDuplicatesString += '<td>' + value.compName + '</td>';
+                                avoidDuplicatesString += '<td>' + value.compVersion + '</td>';
+                                avoidDuplicatesString += '<td>' + value.copyright + '</td>';
+                                avoidDuplicatesString += '</tr>';
 
-                            var avoidDuplicatesString = "";
-                            avoidDuplicatesString += '<tr>';
-                            avoidDuplicatesString += '<td>' + value.licTypeName + '</td>';
-                            avoidDuplicatesString += '<td>' + value.compName + '</td>';
-                            avoidDuplicatesString += '<td>' + value.compVersion + '</td>';
-                            avoidDuplicatesString += '<td>' + value.copyright + '</td>';
-                            avoidDuplicatesString += '</tr>';
-
-                            if (!licenseNote.includes(avoidDuplicatesString)) {
-                                licenseNote += avoidDuplicatesString;
+                                if (!licenseNote.includes(avoidDuplicatesString)) {
+                                    licenseNote += avoidDuplicatesString;
+                                }
                             }
-
                         });
 
-                        $('#table').append(licenseNote);
-
-                        sortTable();
-                    });
-            });
-
-            function sortTable() {
-                var table, rows, switching, i, x, y, shouldSwitch;
-                table = document.getElementById("table");
-                switching = true;
-
-                while (switching) {
-                    switching = false;
-                    rows = table.rows;
-
-                    for (i = 1; i < (rows.length - 1); i++) {
-                        shouldSwitch = false;
-                        x = rows[i].getElementsByTagName("TD")[0];
-                        y = rows[i + 1].getElementsByTagName("TD")[0];
-
-                        if (x.innerHTML.toLowerCase() > y.innerHTML.toLowerCase()) {
-                            shouldSwitch = true;
-                            break;
-                        }
+                        licenseNote += '</table>';
                     }
-                    if (shouldSwitch) {
-                        rows[i].parentNode.insertBefore(rows[i + 1], rows[i]);
-                        switching = true;
+
+                    $('#licenseNotes').append(licenseNote);
+
+                    sortTable(1);
+                    sortTable(0);
+                });
+        });
+
+        function sortTable(columnToSort) {
+            var table, rows, switching, i, x, y, shouldSwitch;
+            table = document.getElementById("table");
+            switching = true;
+
+            while (switching) {
+                switching = false;
+                rows = table.rows;
+
+                for (i = 1; i < (rows.length - 1); i++) {
+                    shouldSwitch = false;
+                    x = rows[i].getElementsByTagName("TD")[columnToSort];
+                    y = rows[i + 1].getElementsByTagName("TD")[columnToSort];
+
+                    if (x.innerHTML.toLowerCase() > y.innerHTML.toLowerCase()) {
+                        shouldSwitch = true;
+                        break;
                     }
                 }
+                if (shouldSwitch) {
+                    rows[i].parentNode.insertBefore(rows[i + 1], rows[i]);
+                    switching = true;
+                }
             }
-        </script>
-    </table>
+        }
+    </script>
 </section>
 </body>
 

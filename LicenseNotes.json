@@ -1,9 +1,11 @@
 [
-  {"licTypeName": "MIT", "compName": "dummy", "compVersion": "1.1", "copyright": "Copyright (c) dummy"},
-  {"licTypeName": "Apache-2.0", "compName": "dummy", "compVersion": "1.1", "copyright": "Copyright (c) dummy"},
-  {"licTypeName": "MIT", "compName": "dummyw", "compVersion": "1.1", "copyright": "Copyright (c) dummy"},
-  {"licTypeName": "MIT", "compName": "dummy", "compVersion": "1.1", "copyright": "Copyright (c) dummy"},
-  {"licTypeName": "MIT", "compName": "dummy", "compVersion": "1.1", "copyright": "Copyright (c) dummy"},
-  {"licTypeName": "Apache-2.0", "compName": "dummy2", "compVersion": "1.1", "copyright": "Copyright (c) dummy"},
-  {"licTypeName": "Apache-2.0", "compName": "dummy2", "compVersion": "1.1", "copyright": "Copyright (c) dummy"}
+  {"licTypeName": "MIT", "compName": "1", "compVersion": "1.1", "copyright": "Copyright (c) dummy"},
+  {"licTypeName": "Apache-2.0", "compName": "khjkl", "compVersion": "1.1", "copyright": "Copyright (c) dummy"},
+  {"licTypeName": "MIT", "compName": "1", "compVersion": "2.1", "copyright": "Copyright (c) dummy"},
+  {"licTypeName": "MIT", "compName": "2", "compVersion": "1.1", "copyright": "Copyright (c) dummy"},
+  {"licTypeName": "MIT", "compName": "3", "compVersion": "1.1", "copyright": "Copyright (c) dummy"},
+  {"licTypeName": "MIT", "compName": "4", "compVersion": "1.1", "copyright": "Copyright (c) dummy"},
+  {"licTypeName": "Apache-2.0", "compName": "khjkl", "compVersion": "8.1", "copyright": "Copyright (c) dummy"},
+  {"licTypeName": "Apache-2.0", "compName": "jgjhg", "compVersion": "1.1", "copyright": "Copyright (c) dummy"},
+  {"licTypeName": "BSD-2-Clause", "compName": "test", "compVersion": "1.1", "copyright": "Copyright (c) dummy"}
 ]
