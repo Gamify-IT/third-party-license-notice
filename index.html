@@ -1,0 +1,104 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Third Party License Notice</title>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.js">
+    </script>
+
+    <style>
+        table {
+            margin: 0 auto;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        tr:nth-child(even) {
+            background-color: #eee;
+        }
+
+        tr:nth-child(odd) {
+            background-color: #fff;
+        }
+
+        th,
+        td {
+            padding: 10px;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+<section>
+    <h1>Third Party License Notice</h1>
+
+    <table id='table'>
+        <tr>
+            <th>License type</th>
+            <th>Component name</th>
+            <th>Version</th>
+            <th>Copyright</th>
+        </tr>
+
+        <script>
+            $(document).ready(function () {
+                $.getJSON("LicenseNotes.json",
+                    function (data) {
+                        var licenseNote = '';
+
+                        $.each(data, function (key, value) {
+
+                            var avoidDuplicatesString = "";
+                            avoidDuplicatesString += '<tr>';
+                            avoidDuplicatesString += '<td>' + value.licTypeName + '</td>';
+                            avoidDuplicatesString += '<td>' + value.compName + '</td>';
+                            avoidDuplicatesString += '<td>' + value.compVersion + '</td>';
+                            avoidDuplicatesString += '<td>' + value.copyright + '</td>';
+                            avoidDuplicatesString += '</tr>';
+
+                            if (!licenseNote.includes(avoidDuplicatesString)) {
+                                licenseNote += avoidDuplicatesString;
+                            }
+
+                        });
+
+                        $('#table').append(licenseNote);
+
+                        sortTable();
+                    });
+            });
+
+            function sortTable() {
+                var table, rows, switching, i, x, y, shouldSwitch;
+                table = document.getElementById("table");
+                switching = true;
+
+                while (switching) {
+                    switching = false;
+                    rows = table.rows;
+
+                    for (i = 1; i < (rows.length - 1); i++) {
+                        shouldSwitch = false;
+                        x = rows[i].getElementsByTagName("TD")[0];
+                        y = rows[i + 1].getElementsByTagName("TD")[0];
+
+                        if (x.innerHTML.toLowerCase() > y.innerHTML.toLowerCase()) {
+                            shouldSwitch = true;
+                            break;
+                        }
+                    }
+                    if (shouldSwitch) {
+                        rows[i].parentNode.insertBefore(rows[i + 1], rows[i]);
+                        switching = true;
+                    }
+                }
+            }
+        </script>
+</section>
+</body>
+
+</html>

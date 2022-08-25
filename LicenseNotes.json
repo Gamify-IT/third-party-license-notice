@@ -1,0 +1,9 @@
+[
+  {"licTypeName": "MIT", "compName": "dummy", "compVersion": "1.1", "copyright": "Copyright (c) dummy"},
+  {"licTypeName": "Apache-2.0", "compName": "dummy", "compVersion": "1.1", "copyright": "Copyright (c) dummy"},
+  {"licTypeName": "MIT", "compName": "dummyw", "compVersion": "1.1", "copyright": "Copyright (c) dummy"},
+  {"licTypeName": "MIT", "compName": "dummy", "compVersion": "1.1", "copyright": "Copyright (c) dummy"},
+  {"licTypeName": "MIT", "compName": "dummy", "compVersion": "1.1", "copyright": "Copyright (c) dummy"},
+  {"licTypeName": "Apache-2.0", "compName": "dummy2", "compVersion": "1.1", "copyright": "Copyright (c) dummy"},
+  {"licTypeName": "Apache-2.0", "compName": "dummy2", "compVersion": "1.1", "copyright": "Copyright (c) dummy"}
+]
