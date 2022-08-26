@@ -29,12 +29,21 @@
             padding: 10px;
             text-align: center;
         }
+
+        p {
+            margin: 0 auto;
+            padding: 0 30%;
+            text-align: center;
+        }
     </style>
 </head>
 
 <body>
 <section>
     <h1>Third Party License Notice</h1>
+    <p>The platform "GamifyIT - A Web-based Gaming Platform for Computer Science Education in the First Semesters" uses
+        open source software (OSS). Insofar as the applicable license conditions provide for a publication obligation,
+        the copyright notices and license texts for the OSS components used are listed below:</p>
 
     <div id="licenseNotes"></div>
 
@@ -50,9 +59,9 @@
                         licenseTypes.push(value.licTypeName);
                     });
 
-                    for(var i = 0; i < licenseTypes.length; i++) {
-                        if(!licenseNote.includes('<b><center><h3>'+licenseTypes[i]+'</h3></center></b>')){
-                            licenseNote += '<b><center><h3>'+licenseTypes[i]+'</h3></center></b>';
+                    for (var i = 0; i < licenseTypes.length; i++) {
+                        if (!licenseNote.includes('<b><center><h3>' + licenseTypes[i] + '</h3></center></b>')) {
+                            licenseNote += '<b><center><h3>' + licenseTypes[i] + '</h3></center></b>';
                             licenseNote += '<table id="table">' +
                                 '        <tr>' +
                                 '            <th>Component name</th>' +
@@ -62,7 +71,7 @@
                         }
 
                         $.each(data, function (key, value) {
-                            if(licenseTypes[i] == value.licTypeName){
+                            if (licenseTypes[i] == value.licTypeName) {
                                 var avoidDuplicatesString = "";
                                 avoidDuplicatesString += '<tr>';
                                 avoidDuplicatesString += '<td>' + value.compName + '</td>';
