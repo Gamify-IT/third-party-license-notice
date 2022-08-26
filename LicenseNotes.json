@@ -89,5 +89,15 @@
   {"licTypeName": "BSD-3-Clause", "compName": "golang.org/x/tools", "compVersion": "v0.1.8", "copyright": "Copyright (c) 2009 The Go Authors. All rights reserved."},
   {"licTypeName": "BSD-3-Clause", "compName": "golang.org/x/xerrors", "compVersion": "v0.0.0-20200804184101-5ec99f83aff1", "copyright": "Copyright (c) 2019 The Go Authors. All rights reserved."},
   {"licTypeName": "Apache-2.0", "compName": "gopkg.in/ini.v1", "compVersion": "v1.66.3", "copyright": "TODO"},
-  {"licTypeName": "Apache-2.0", "compName": "gopkg.in/yaml.v2", "compVersion": "v2.4.0", "copyright": "Copyright 2011-2016 Canonical Ltd."}
+  {"licTypeName": "Apache-2.0", "compName": "gopkg.in/yaml.v2", "compVersion": "v2.4.0", "copyright": "Copyright 2011-2016 Canonical Ltd."},
+
+  {"licTypeName": "MIT", "compName": "eslint-plugin-vue", "compVersion": "8.0.3", "copyright": "Copyright (c) 2017 Toru Nagashima"},
+  {"licTypeName": "MIT", "compName": "jest", "compVersion": "27.5.1", "copyright": "Copyright (c) Facebook, Inc. and its affiliates."},
+  {"licTypeName": "MIT", "compName": "jest-sonar-reporter", "compVersion": "2.0.0", "copyright": "Copyright (c) 2017-2018 Christian Wlatschiha"},
+  {"licTypeName": "MIT", "compName": "jsdom", "compVersion": "20.0.0", "copyright": "Copyright (c) 2010 Elijah Insua"},
+  {"licTypeName": "MIT", "compName": "prettier", "compVersion": "2.4.1", "copyright": "Copyright © James Long and contributors"},
+  {"licTypeName": "MIT", "compName": "ts-jest", "compVersion": "27.0.4", "copyright": "Copyright (c) 2016-2018"},
+  {"licTypeName": "Apache-2.0", "compName": "typescript", "compVersion": "4.5.5", "copyright": "Copyright (c) Microsoft Corporation. All rights reserved."},
+  {"licTypeName": "MIT", "compName": "vite", "compVersion": "2.9.13", "copyright": "Copyright (c) 2019-present, Yuxi (Evan) You and Vite contributors"},
+  {"licTypeName": "MIT", "compName": "vitest", "compVersion": "0.17.1", "copyright": "Copyright (c) 2021-Present Anthony Fu <https://github.com/antfu>\nCopyright (c) 2021-Present Matias Capeletto <https://github.com/patak-dev>"}
 ]
