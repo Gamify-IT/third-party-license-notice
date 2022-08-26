@@ -152,5 +152,10 @@
 
   {"licTypeName": "Apache-2.0", "compName": "org.springframework.cloud:spring-cloud-starter-openfeign", "compVersion": "3.1.3", "copyright": "Copyright 2014-2021 the original author or authors."},
   {"licTypeName": "MIT", "compName": "com.auth0:java-jwt", "compVersion": "3.19.2", "copyright": "Copyright (c) 2015 Auth0, Inc. <support@auth0.com> (http://auth0.com)"},
-  {"licTypeName": "Apache-2.0", "compName": "org.springframework.cloud:spring-cloud-dependencies", "compVersion": "2021.0.3", "copyright": "Copyright 2014-2021 the original author or authors."}
+  {"licTypeName": "Apache-2.0", "compName": "org.springframework.cloud:spring-cloud-dependencies", "compVersion": "2021.0.3", "copyright": "Copyright 2014-2021 the original author or authors."},
+
+  {"licTypeName": "MIT", "compName": "bootstrap", "compVersion": "5.2.0", "copyright": "Copyright (c) 2011-2022 Twitter, Inc.\nCopyright (c) 2011-2022 The Bootstrap Authors"},
+  {"licTypeName": "MIT", "compName": "bootstrap-vue-3", "compVersion": "0.1.21", "copyright": "Copyright (c) 2021 BootstrapVue3"},
+  {"licTypeName": "MIT", "compName": "vue-sidebar-menu", "compVersion": "5.2.4", "copyright": "Copyright (c) 2018 yaminncco"},
+  {"licTypeName": "MIT", "compName": "@types/jquery", "compVersion": "3.5.14", "copyright": "TODO"}
 ]
