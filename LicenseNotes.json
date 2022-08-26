@@ -131,5 +131,11 @@
   {"licTypeName": "BSD-3-Clause", "compName": "eslint-plugin-flowtype", "compVersion": "8.0.3", "copyright": "Copyright (c) 2015, Gajus Kuizinas (http://gajus.com/)"},
   {"licTypeName": "MIT", "compName": "eslint-plugin-import", "compVersion": "2.26.0", "copyright": "Copyright (c) 2015 Ben Mosher"},
   {"licTypeName": "MIT", "compName": "ts-jest", "compVersion": "27.1.5", "copyright": "Copyright (c) 2016-2018"},
-  {"licTypeName": "Apache-2.0", "compName": "typescript", "compVersion": "4.6.4", "copyright": "Copyright (c) Microsoft Corporation. All rights reserved."}
+  {"licTypeName": "Apache-2.0", "compName": "typescript", "compVersion": "4.6.4", "copyright": "Copyright (c) Microsoft Corporation. All rights reserved."},
+
+  {"licTypeName": "BSD-3-Clause", "compName": "seaborn", "compVersion": "0.11.2", "copyright": "Copyright (c) 2012-2021, Michael L. Waskom All rights reserved."},
+  {"licTypeName": "BSD-3-Clause", "compName": "pandas", "compVersion": "1.4.3", "copyright": "Copyright (c) 2008-2011, AQR Capital Management, LLC, Lambda Foundry, Inc. and PyData Development Team"},
+  {"licTypeName": "TODO", "compName": "matplotlib.pyplot", "compVersion": "3.5.3", "copyright": "© Copyright 2002 - 2012 John Hunter, Darren Dale, Eric Firing, Michael Droettboom and the Matplotlib development team; 2012 - 2022 The Matplotlib development team."},
+  {"licTypeName": "BSD-3-Clause", "compName": "numpy", "compVersion": "1.23", "copyright": "Copyright (c) 2005-2022, NumPy Developers."},
+  {"licTypeName": "Python-1.6", "compName": "re", "compVersion": "3.10", "copyright": "Copyright (c) 1998-2001 by Secret Labs AB.  All rights reserved."}
 ]
