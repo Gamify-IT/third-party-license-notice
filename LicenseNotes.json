@@ -157,5 +157,7 @@
   {"licTypeName": "MIT", "compName": "bootstrap", "compVersion": "5.2.0", "copyright": "Copyright (c) 2011-2022 Twitter, Inc.\nCopyright (c) 2011-2022 The Bootstrap Authors"},
   {"licTypeName": "MIT", "compName": "bootstrap-vue-3", "compVersion": "0.1.21", "copyright": "Copyright (c) 2021 BootstrapVue3"},
   {"licTypeName": "MIT", "compName": "vue-sidebar-menu", "compVersion": "5.2.4", "copyright": "Copyright (c) 2018 yaminncco"},
-  {"licTypeName": "MIT", "compName": "@types/jquery", "compVersion": "3.5.14", "copyright": "TODO"}
+  {"licTypeName": "MIT", "compName": "@types/jquery", "compVersion": "3.5.14", "copyright": "TODO"},
+
+  {"licTypeName": "MIT", "compName": "readthedocs.org", "compVersion": "8.4.1", "copyright": "Copyright (c) 2010-2021 Read the Docs, Inc. & contributors"}
 ]
