@@ -112,5 +112,7 @@
   {"licTypeName": "EPL-2.0", "compName": "org.jacoco:jacoco-maven-plugin", "compVersion": "0.8.7", "copyright": "TODO"},
   {"licTypeName": "Apache-2.0", "compName": "com.hubspot.maven.plugins:prettier-maven-plugin", "compVersion": "0.16", "copyright": "TODO"},
   {"licTypeName": "Apache-2.0", "compName": "org.apache.maven.plugins:maven-jar-plugin", "compVersion": "3.2.2", "copyright": "Copyright 2002-2022 The Apache Software Foundation"},
-  {"licTypeName": "Apache-2.0", "compName": "org.apache.maven.plugins:maven-compiler-plugin", "compVersion": "3.5.1", "copyright": "Copyright 2001-2016 The Apache Software Foundation"}
+  {"licTypeName": "Apache-2.0", "compName": "org.apache.maven.plugins:maven-compiler-plugin", "compVersion": "3.5.1", "copyright": "Copyright 2001-2016 The Apache Software Foundation"},
+
+  {"licTypeName": "MIT", "compName": "@types/bootstrap", "compVersion": "5.1.12", "copyright": "TODO"}
 ]
