@@ -137,5 +137,16 @@
   {"licTypeName": "BSD-3-Clause", "compName": "pandas", "compVersion": "1.4.3", "copyright": "Copyright (c) 2008-2011, AQR Capital Management, LLC, Lambda Foundry, Inc. and PyData Development Team"},
   {"licTypeName": "TODO", "compName": "matplotlib.pyplot", "compVersion": "3.5.3", "copyright": "© Copyright 2002 - 2012 John Hunter, Darren Dale, Eric Firing, Michael Droettboom and the Matplotlib development team; 2012 - 2022 The Matplotlib development team."},
   {"licTypeName": "BSD-3-Clause", "compName": "numpy", "compVersion": "1.23", "copyright": "Copyright (c) 2005-2022, NumPy Developers."},
-  {"licTypeName": "Python-1.6", "compName": "re", "compVersion": "3.10", "copyright": "Copyright (c) 1998-2001 by Secret Labs AB.  All rights reserved."}
+  {"licTypeName": "Python-1.6", "compName": "re", "compVersion": "3.10", "copyright": "Copyright (c) 1998-2001 by Secret Labs AB.  All rights reserved."},
+
+  {"licTypeName": "MIT", "compName": "bootstrap-vue-3", "compVersion": "0.1.13", "copyright": "Copyright (c) 2021 BootstrapVue3"},
+  {"licTypeName": "MIT", "compName": "vue", "compVersion": "3.2.37", "copyright": "Copyright (c) 2018-present, Yuxi (Evan) You"},
+  {"licTypeName": "ISC", "compName": "vue3-highlightjs", "compVersion": "1.0.5", "copyright": "TODO"},
+  {"licTypeName": "MIT", "compName": "@types/bootstrap", "compVersion": "5.1.11", "copyright": "TODO"},
+  {"licTypeName": "MIT", "compName": "@vue/cli-plugin-eslint", "compVersion": "5.0.6", "copyright": "Copyright (c) 2017-present, Yuxi (Evan) You"},
+  {"licTypeName": "MIT", "compName": "@vue/cli-plugin-unit-jest", "compVersion": "5.0.6", "copyright": "Copyright (c) 2017-present, Yuxi (Evan) You"},
+  {"licTypeName": "MIT", "compName": "@vue/test-utils", "compVersion": "2.0.0", "copyright": "Copyright (c) 2021-present vuejs"},
+  {"licTypeName": "MIT", "compName": "sass", "compVersion": "1.26.11", "copyright": "Copyright (c) 2016, Google Inc."},
+  {"licTypeName": "MIT", "compName": "sass-loader", "compVersion": "10.0.2", "copyright": "Copyright JS Foundation and other contributors"},
+  {"licTypeName": "MIT", "compName": "vue-eslint-parser", "compVersion": "9.0.3", "copyright": "Copyright (c) 2016 Toru Nagashima"}
 ]
