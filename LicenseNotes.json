@@ -114,5 +114,22 @@
   {"licTypeName": "Apache-2.0", "compName": "org.apache.maven.plugins:maven-jar-plugin", "compVersion": "3.2.2", "copyright": "Copyright 2002-2022 The Apache Software Foundation"},
   {"licTypeName": "Apache-2.0", "compName": "org.apache.maven.plugins:maven-compiler-plugin", "compVersion": "3.5.1", "copyright": "Copyright 2001-2016 The Apache Software Foundation"},
 
-  {"licTypeName": "MIT", "compName": "@types/bootstrap", "compVersion": "5.1.12", "copyright": "TODO"}
+  {"licTypeName": "MIT", "compName": "@types/bootstrap", "compVersion": "5.1.12", "copyright": "TODO"},
+
+  {"licTypeName": "MIT", "compName": "@primer/octicons", "compVersion": "17.3.0", "copyright": "Copyright (c) 2022 GitHub Inc."},
+  {"licTypeName": "MIT", "compName": "core-js", "compVersion": "3.8.3", "copyright": "Copyright (c) 2014-2021 Denis Pushkarev"},
+  {"licTypeName": "MIT", "compName": "@babel/core", "compVersion": "7.12.16", "copyright": "Copyright (c) 2014-present Sebastian McKenzie and other contributors"},
+  {"licTypeName": "MIT", "compName": "@babel/eslint-parser", "compVersion": "7.12.16", "copyright": "Copyright (c) 2014-present Sebastian McKenzie and other contributors"},
+  {"licTypeName": "MIT", "compName": "@babel/eslint-plugin", "compVersion": "7.17.7", "copyright": "Copyright (c) 2014-present Sebastian McKenzie and other contributors"},
+  {"licTypeName": "MIT", "compName": "@babel/preset-react", "compVersion": "7.16.7", "copyright": "Copyright (c) 2014-present Sebastian McKenzie and other contributors"},
+  {"licTypeName": "MIT", "compName": "@types/jest", "compVersion": "27.5.2", "copyright": "TODO"},
+  {"licTypeName": "MIT", "compName": "@typescript-eslint/eslint-plugin", "compVersion": "5.28.0", "copyright": "Copyright JS Foundation and other contributors, https://js.foundation"},
+  {"licTypeName": "MIT", "compName": "@vue/cli-plugin-babel", "compVersion": "5.0.0", "copyright": "Copyright (c) 2017-present, Yuxi (Evan) You"},
+  {"licTypeName": "MIT", "compName": "@vue/cli-plugin-typescript", "compVersion": "5.0.5", "copyright": "Copyright (c) 2017-present, Yuxi (Evan) You"},
+  {"licTypeName": "MIT", "compName": "eslint", "compVersion": "8.1.0", "copyright": "Copyright OpenJS Foundation and other contributors, <www.openjsf.org>"},
+  {"licTypeName": "BSD-3-Clause", "compName": "eslint-plugin-flow", "compVersion": "2.29.1", "copyright": "Copyright (c) 2015, Gajus Kuizinas (http://gajus.com/)"},
+  {"licTypeName": "BSD-3-Clause", "compName": "eslint-plugin-flowtype", "compVersion": "8.0.3", "copyright": "Copyright (c) 2015, Gajus Kuizinas (http://gajus.com/)"},
+  {"licTypeName": "MIT", "compName": "eslint-plugin-import", "compVersion": "2.26.0", "copyright": "Copyright (c) 2015 Ben Mosher"},
+  {"licTypeName": "MIT", "compName": "ts-jest", "compVersion": "27.1.5", "copyright": "Copyright (c) 2016-2018"},
+  {"licTypeName": "Apache-2.0", "compName": "typescript", "compVersion": "4.6.4", "copyright": "Copyright (c) Microsoft Corporation. All rights reserved."}
 ]
