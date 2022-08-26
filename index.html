@@ -65,9 +65,9 @@
         $(document).ready(function () {
             $.getJSON("LicenseNotes.json",
                 function (data) {
-                    var licenseNote = '';
+                    let licenseNote = '';
 
-                    const licenseTypes = new Array();
+                    const licenseTypes = [];
 
                     $.each(data, function (key, value) {
                         licenseTypes.push(value.licTypeName);
@@ -76,16 +76,16 @@
                     licenseTypes.sort();
 
                     licenseNote += '<div id="links">';
-                    for (var i = 0; i < licenseTypes.length; i++) {
+                    for (let i = 0; i < licenseTypes.length; i++) {
                         if(!licenseNote.includes('<a href="#' + licenseTypes[i] + '">' + licenseTypes[i] + '</a>')){
                             licenseNote += '<a href="#' + licenseTypes[i] + '">' + licenseTypes[i] + '</a>';
                         }
                     }
                     licenseNote += '</div>';
 
-                    for (var i = 0; i < licenseTypes.length; i++) {
-                        if (!licenseNote.includes('<b><center><h3 id="' + licenseTypes[i] + '">' + licenseTypes[i] + '</h3></center></b>')) {
-                            licenseNote += '<b><center><h3 id="' + licenseTypes[i] + '">' + licenseTypes[i] + '</h3></center></b>';
+                    for (let j = 0; j < licenseTypes.length; j++) {
+                        if (!licenseNote.includes('<b><h3 id="' + licenseTypes[j] + '" style="text-align: center">' + licenseTypes[j] + '</h3></b>')) {
+                            licenseNote += '<b><h3 id="' + licenseTypes[j] + '" style="text-align: center">' + licenseTypes[j] + '</h3></b>';
                             licenseNote += '<table id="table">' +
                                 '        <tr>' +
                                 '            <th style="min-width: 35%; max-width: 35%; text-align: left;">Component name</th>' +
@@ -95,8 +95,8 @@
                         }
 
                         $.each(data, function (key, value) {
-                            if (licenseTypes[i] == value.licTypeName) {
-                                var avoidDuplicatesString = "";
+                            if (licenseTypes[j] === value.licTypeName) {
+                                let avoidDuplicatesString = "";
                                 avoidDuplicatesString += '<tr>';
                                 avoidDuplicatesString += '<td>' + value.compName + '</td>';
                                 avoidDuplicatesString += '<td>' + value.compVersion + '</td>';
@@ -120,7 +120,7 @@
         });
 
         function sortTable(columnToSort) {
-            var table, rows, switching, i, x, y, shouldSwitch;
+            let table, rows, switching, i, x, y, shouldSwitch;
             table = document.getElementById("table");
             switching = true;
 
