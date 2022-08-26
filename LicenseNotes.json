@@ -99,5 +99,18 @@
   {"licTypeName": "MIT", "compName": "ts-jest", "compVersion": "27.0.4", "copyright": "Copyright (c) 2016-2018"},
   {"licTypeName": "Apache-2.0", "compName": "typescript", "compVersion": "4.5.5", "copyright": "Copyright (c) Microsoft Corporation. All rights reserved."},
   {"licTypeName": "MIT", "compName": "vite", "compVersion": "2.9.13", "copyright": "Copyright (c) 2019-present, Yuxi (Evan) You and Vite contributors"},
-  {"licTypeName": "MIT", "compName": "vitest", "compVersion": "0.17.1", "copyright": "Copyright (c) 2021-Present Anthony Fu <https://github.com/antfu>\nCopyright (c) 2021-Present Matias Capeletto <https://github.com/patak-dev>"}
+  {"licTypeName": "MIT", "compName": "vitest", "compVersion": "0.17.1", "copyright": "Copyright (c) 2021-Present Anthony Fu <https://github.com/antfu>\nCopyright (c) 2021-Present Matias Capeletto <https://github.com/patak-dev>"},
+
+  {"licTypeName": "Apache-2.0", "compName": "org.springframework.boot:spring-boot-starter-web", "compVersion": "2.7.3", "copyright": "Copyright (c) 2012-2022 Pivotal, Inc."},
+  {"licTypeName": "MIT", "compName": "org.projectlombok:lombok", "compVersion": "1.18.24", "copyright": "Copyright (C) 2009-2021 The Project Lombok Authors."},
+  {"licTypeName": "Apache-2.0", "compName": "org.springdoc:springdoc-openapi-ui" , "compVersion": "1.6.9", "copyright": "TODO"},
+  {"licTypeName": "Apache-2.0", "compName": "org.mapstruct:mapstruct", "compVersion": "1.5.2.Final", "copyright": "Copyright MapStruct Authors."},
+  {"licTypeName": "BSD-2-Clause", "compName": "org.postgresql:postgresql", "compVersion": "42.5.0", "copyright": "Copyright (c) 1997, PostgreSQL Global Development Group"},
+  {"licTypeName": "Apache-2.0", "compName": "org.springframework.boot:spring-boot-starter-test", "compVersion": "2.7.3", "copyright": "Copyright (c) 2012-2022 Pivotal, Inc."},
+  {"licTypeName": "Apache-2.0", "compName": "org.springframework.boot:spring-boot-starter-data-jpa", "compVersion": "2.7.3", "copyright": "Copyright (c) 2012-2022 Pivotal, Inc."},
+  {"licTypeName": "Apache-2.0", "compName": "org.springframework.boot:spring-boot-maven-plugin", "compVersion": "2.7.3", "copyright": "Copyright (c) 2012-2022 Pivotal, Inc."},
+  {"licTypeName": "EPL-2.0", "compName": "org.jacoco:jacoco-maven-plugin", "compVersion": "0.8.7", "copyright": "TODO"},
+  {"licTypeName": "Apache-2.0", "compName": "com.hubspot.maven.plugins:prettier-maven-plugin", "compVersion": "0.16", "copyright": "TODO"},
+  {"licTypeName": "Apache-2.0", "compName": "org.apache.maven.plugins:maven-jar-plugin", "compVersion": "3.2.2", "copyright": "Copyright 2002-2022 The Apache Software Foundation"},
+  {"licTypeName": "Apache-2.0", "compName": "org.apache.maven.plugins:maven-compiler-plugin", "compVersion": "3.5.1", "copyright": "Copyright 2001-2016 The Apache Software Foundation"}
 ]
