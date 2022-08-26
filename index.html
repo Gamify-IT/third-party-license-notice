@@ -35,6 +35,20 @@
             padding: 0 30%;
             text-align: center;
         }
+
+        #links {
+            text-decoration: underline 1px;
+            text-underline-offset: 0.2em;
+            text-align: center;
+            font-weight: bold;
+        }
+
+        a, a:visited {
+            white-space: nowrap;
+            padding: 0.5%;
+            color: rgb(1, 46, 121);
+        }
+
     </style>
 </head>
 
@@ -43,7 +57,7 @@
     <h1>Third Party License Notice</h1>
     <p>The platform "GamifyIT - A Web-based Gaming Platform for Computer Science Education in the First Semesters" uses
         open source software (OSS). Insofar as the applicable license conditions provide for a publication obligation,
-        the copyright notices and license texts for the OSS components used are listed below:</p>
+        the copyright notices and license texts for the OSS components used are listed below:</p><br/>
 
     <div id="licenseNotes"></div>
 
@@ -59,9 +73,17 @@
                         licenseTypes.push(value.licTypeName);
                     });
 
+                    licenseNote += '<div id="links">';
                     for (var i = 0; i < licenseTypes.length; i++) {
-                        if (!licenseNote.includes('<b><center><h3>' + licenseTypes[i] + '</h3></center></b>')) {
-                            licenseNote += '<b><center><h3>' + licenseTypes[i] + '</h3></center></b>';
+                        if(!licenseNote.includes('<a href="#' + licenseTypes[i] + '">' + licenseTypes[i] + '</a>')){
+                            licenseNote += '<a href="#' + licenseTypes[i] + '">' + licenseTypes[i] + '</a>';
+                        }
+                    }
+                    licenseNote += '</div>';
+
+                    for (var i = 0; i < licenseTypes.length; i++) {
+                        if (!licenseNote.includes('<b><center><h3 id="' + licenseTypes[i] + '">' + licenseTypes[i] + '</h3></center></b>')) {
+                            licenseNote += '<b><center><h3 id="' + licenseTypes[i] + '">' + licenseTypes[i] + '</h3></center></b>';
                             licenseNote += '<table id="table">' +
                                 '        <tr>' +
                                 '            <th style="min-width: 35%; max-width: 35%; text-align: left;">Component name</th>' +
