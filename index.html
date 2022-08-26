@@ -73,6 +73,8 @@
                         licenseTypes.push(value.licTypeName);
                     });
 
+                    licenseTypes.sort();
+
                     licenseNote += '<div id="links">';
                     for (var i = 0; i < licenseTypes.length; i++) {
                         if(!licenseNote.includes('<a href="#' + licenseTypes[i] + '">' + licenseTypes[i] + '</a>')){
