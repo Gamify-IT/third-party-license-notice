@@ -150,16 +150,16 @@
   {"licTypeName": "MIT", "compName": "sass-loader", "compVersion": "10.0.2", "copyright": "Copyright JS Foundation and other contributors", "copyrightSource": ""},
   {"licTypeName": "MIT", "compName": "vue-eslint-parser", "compVersion": "9.0.3", "copyright": "Copyright (c) 2016 Toru Nagashima", "copyrightSource": ""},
 
-  {"licTypeName": "Apache-2.0", "compName": "org.springframework.cloud:spring-cloud-starter-openfeign", "compVersion": "3.1.3", "copyright": "Copyright 2014-2021 the original author or authors.", "copyrightSource": ""},
-  {"licTypeName": "MIT", "compName": "com.auth0:java-jwt", "compVersion": "3.19.2", "copyright": "Copyright (c) 2015 Auth0, Inc. <support@auth0.com> (http://auth0.com)", "copyrightSource": ""},
-  {"licTypeName": "Apache-2.0", "compName": "org.springframework.cloud:spring-cloud-dependencies", "compVersion": "2021.0.3", "copyright": "Copyright 2014-2021 the original author or authors.", "copyrightSource": ""},
+  {"licTypeName": "Apache-2.0", "compName": "org.springframework.cloud:spring-cloud-starter-openfeign", "compVersion": "3.1.3", "copyright": "Copyright 2014-2021 the original author or authors.", "copyrightSource": "https://repo1.maven.org/maven2/org/springframework/cloud/spring-cloud-starter-openfeign/3.1.3/spring-cloud-starter-openfeign-3.1.3.pom"},
+  {"licTypeName": "MIT", "compName": "com.auth0:java-jwt", "compVersion": "3.19.2", "copyright": "Copyright (c) 2015 Auth0, Inc. <support@auth0.com> (http://auth0.com)", "copyrightSource": "https://github.com/auth0/java-jwt/blob/3.19.2/LICENSE"},
+  {"licTypeName": "Apache-2.0", "compName": "org.springframework.cloud:spring-cloud-dependencies", "compVersion": "2021.0.3", "copyright": "Copyright 2014-2021 the original author or authors.", "copyrightSource": "https://repo1.maven.org/maven2/org/springframework/cloud/spring-cloud-dependencies/2021.0.3/spring-cloud-dependencies-2021.0.3.pom"},
 
-  {"licTypeName": "MIT", "compName": "bootstrap", "compVersion": "5.2.0", "copyright": "Copyright (c) 2011-2022 Twitter, Inc.\nCopyright (c) 2011-2022 The Bootstrap Authors", "copyrightSource": ""},
-  {"licTypeName": "MIT", "compName": "bootstrap-vue-3", "compVersion": "0.1.21", "copyright": "Copyright (c) 2021 BootstrapVue3", "copyrightSource": ""},
-  {"licTypeName": "MIT", "compName": "vue-sidebar-menu", "compVersion": "5.2.4", "copyright": "Copyright (c) 2018 yaminncco", "copyrightSource": ""},
+  {"licTypeName": "MIT", "compName": "bootstrap", "compVersion": "5.2.0", "copyright": "Copyright (c) 2011-2022 Twitter, Inc.\nCopyright (c) 2011-2022 The Bootstrap Authors", "copyrightSource": "https://github.com/twbs/bootstrap/blob/v5.2.0/LICENSE"},
+  {"licTypeName": "MIT", "compName": "bootstrap-vue-3", "compVersion": "0.1.21", "copyright": "Copyright (c) 2021 BootstrapVue3", "copyrightSource": "https://github.com/cdmoro/bootstrap-vue-3/blob/v0.1.21/LICENSE"},
+  {"licTypeName": "MIT", "compName": "vue-sidebar-menu", "compVersion": "5.2.4", "copyright": "Copyright (c) 2018 yaminncco", "copyrightSource": "https://github.com/yaminncco/vue-sidebar-menu/blob/next/LICENSE"},
   {"licTypeName": "MIT", "compName": "@types/jquery", "compVersion": "3.5.14", "copyright": "TODO", "copyrightSource": ""},
 
-  {"licTypeName": "MIT", "compName": "readthedocs.org", "compVersion": "8.4.1", "copyright": "Copyright (c) 2010-2021 Read the Docs, Inc. & contributors", "copyrightSource": ""},
+  {"licTypeName": "MIT", "compName": "readthedocs.org", "compVersion": "8.4.1", "copyright": "Copyright (c) 2010-2021 Read the Docs, Inc. & contributors", "copyrightSource": "https://github.com/readthedocs/readthedocs.org/blob/8.4.1/LICENSE"},
 
-  {"licTypeName": "Unity Companion License", "compName": "Unity", "compVersion": "2021.3.2f1", "copyright": "Copyright (c) 2019-2021 Unity Technologies ApS. All rights reserved.", "copyrightSource": ""}
+  {"licTypeName": "Unity Companion License", "compName": "Unity", "compVersion": "2021.3.2f1", "copyright": "Copyright (c) 2019 Unity Technologies ApS.", "copyrightSource": "https://docs.unity3d.com/Packages/com.unity.inputsystem@0.2/license/LICENSE.html"}
 ]
