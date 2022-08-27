@@ -63,7 +63,7 @@
 
     <script>
 
-        var licenses= {
+        const licensesTexts = {
             dummy: "dummy"
         };
 
@@ -71,7 +71,7 @@
             $.getJSON("Licenses.json",
                 function (data) {
                     $.each(data, function (key, value) {
-                        licenses[value.licTypeName] = value.licText;
+                        licensesTexts[value.licTypeName] = value.licText;
                     });
                 });
         });
@@ -125,9 +125,9 @@
 
                         licenseNote += '</table>';
 
-                        if(licenses[licenseTypes[j]] != null  && licenses[licenseTypes[j]] !== ""){
+                        if(licensesTexts[licenseTypes[j]] != null  && licensesTexts[licenseTypes[j]] !== ""){
 
-                            let licenseText = licenses[licenseTypes[j]].replaceAll("\n", "<br/>");
+                            let licenseText = licensesTexts[licenseTypes[j]].replaceAll("\n", "<br/>");
 
                             if(!licenseNote.includes('<p style="text-align: left">' + licenseText + '</p>')){
                                 licenseNote += '<br/><p style="text-align: left"><b>License text:</b></p><br/>';
