@@ -159,5 +159,7 @@
   {"licTypeName": "MIT", "compName": "vue-sidebar-menu", "compVersion": "5.2.4", "copyright": "Copyright (c) 2018 yaminncco"},
   {"licTypeName": "MIT", "compName": "@types/jquery", "compVersion": "3.5.14", "copyright": "TODO"},
 
-  {"licTypeName": "MIT", "compName": "readthedocs.org", "compVersion": "8.4.1", "copyright": "Copyright (c) 2010-2021 Read the Docs, Inc. & contributors"}
+  {"licTypeName": "MIT", "compName": "readthedocs.org", "compVersion": "8.4.1", "copyright": "Copyright (c) 2010-2021 Read the Docs, Inc. & contributors"},
+
+  {"licTypeName": "Unity Companion License", "compName": "Unity", "compVersion": "2021.3.2f1", "copyright": "Copyright (c) 2019-2021 Unity Technologies ApS. All rights reserved."}
 ]
