@@ -112,9 +112,9 @@
                             if (licenseTypes[j] === value.licTypeName) {
                                 let avoidDuplicatesString = "";
                                 avoidDuplicatesString += '<tr>';
-                                avoidDuplicatesString += '<td>' + value.compName + '</td>';
-                                avoidDuplicatesString += '<td>' + value.compVersion + '</td>';
-                                avoidDuplicatesString += '<td>' + value.copyright + '</td>';
+                                avoidDuplicatesString += '<td>' + value.compName.replaceAll("\n", "<br/>") + '</td>';
+                                avoidDuplicatesString += '<td>' + value.compVersion.replaceAll("\n", "<br/>")+ '</td>';
+                                avoidDuplicatesString += '<td>' + value.copyright.replaceAll("\n", "<br/>") + '</td>';
                                 avoidDuplicatesString += '</tr>';
 
                                 if (!licenseNote.includes(avoidDuplicatesString)) {
