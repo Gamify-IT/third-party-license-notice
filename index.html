@@ -114,7 +114,11 @@
                                 avoidDuplicatesString += '<tr>';
                                 avoidDuplicatesString += '<td>' + value.compName.replaceAll("\n", "<br/>") + '</td>';
                                 avoidDuplicatesString += '<td>' + value.compVersion.replaceAll("\n", "<br/>")+ '</td>';
-                                avoidDuplicatesString += '<td>' + value.copyright.replaceAll("\n", "<br/>") + '</td>';
+                                if(value.copyrightSource !== ""){
+                                    avoidDuplicatesString += '<td><a href="'+ value.copyrightSource + '" target="_blank" style="text-decoration: none;">' + value.copyright.replaceAll("\n", "<br/>") + '</a></td>';
+                                }else{
+                                    avoidDuplicatesString += '<td>' + value.copyright.replaceAll("\n", "<br/>") + '</td>';
+                                }
                                 avoidDuplicatesString += '</tr>';
 
                                 if (!licenseNote.includes(avoidDuplicatesString)) {
