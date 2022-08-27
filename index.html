@@ -100,7 +100,7 @@
                     for (let j = 0; j < licenseTypes.length; j++) {
                         if (!licenseNote.includes('<b><h3 id="' + licenseTypes[j] + '" style="text-align: center">' + licenseTypes[j] + '</h3></b>')) {
                             licenseNote += '<b><h3 id="' + licenseTypes[j] + '" style="text-align: center">' + licenseTypes[j] + '</h3></b>';
-                            licenseNote += '<table id="table">' +
+                            licenseNote += '<table id="Table-' + licenseTypes[j] + '">' +
                                 '        <tr>' +
                                 '            <th style="min-width: 35%; max-width: 35%; text-align: left;">Component name</th>' +
                                 '            <th style="min-width: 25%; max-width: 25%; text-align: left;">Version</th>' +
@@ -138,33 +138,35 @@
 
                     $('#licenseNotes').append(licenseNote);
 
-                    sortTable(1);
-                    sortTable(0);
+                    sortTable(1, licenseTypes);
+                    sortTable(0, licenseTypes);
                 });
             });
 
-        function sortTable(columnToSort) {
-            let table, rows, switching, i, x, y, shouldSwitch;
-            table = document.getElementById("table");
-            switching = true;
+        function sortTable(columnToSort, licenseTypes) {
+            for(let j = 0; j < licenseTypes.length; j++){
+                let table, rows, switching, i, x, y, shouldSwitch;
+                table = document.getElementById("Table-" + licenseTypes[j]);
+                switching = true;
 
-            while (switching) {
-                switching = false;
-                rows = table.rows;
+                while (switching) {
+                    switching = false;
+                    rows = table.rows;
 
-                for (i = 1; i < (rows.length - 1); i++) {
-                    shouldSwitch = false;
-                    x = rows[i].getElementsByTagName("TD")[columnToSort];
-                    y = rows[i + 1].getElementsByTagName("TD")[columnToSort];
+                    for (i = 1; i < (rows.length - 1); i++) {
+                        shouldSwitch = false;
+                        x = rows[i].getElementsByTagName("TD")[columnToSort];
+                        y = rows[i + 1].getElementsByTagName("TD")[columnToSort];
 
-                    if (x.innerHTML.toLowerCase() > y.innerHTML.toLowerCase()) {
-                        shouldSwitch = true;
-                        break;
+                        if (x.innerHTML.toLowerCase() > y.innerHTML.toLowerCase()) {
+                            shouldSwitch = true;
+                            break;
+                        }
                     }
-                }
-                if (shouldSwitch) {
-                    rows[i].parentNode.insertBefore(rows[i + 1], rows[i]);
-                    switching = true;
+                    if (shouldSwitch) {
+                        rows[i].parentNode.insertBefore(rows[i + 1], rows[i]);
+                        switching = true;
+                    }
                 }
             }
         }
