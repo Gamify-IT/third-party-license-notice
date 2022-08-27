@@ -62,6 +62,20 @@
     <div id="licenseNotes"></div>
 
     <script>
+
+        var licenses= {
+            dummy: "dummy"
+        };
+
+        $(document).ready(function () {
+            $.getJSON("Licenses.json",
+                function (data) {
+                    $.each(data, function (key, value) {
+                        licenses[value.licTypeName] = value.licText;
+                    });
+                });
+        });
+
         $(document).ready(function () {
             $.getJSON("LicenseNotes.json",
                 function (data) {
@@ -77,7 +91,7 @@
 
                     licenseNote += '<div id="links">';
                     for (let i = 0; i < licenseTypes.length; i++) {
-                        if(!licenseNote.includes('<a href="#' + licenseTypes[i] + '">' + licenseTypes[i] + '</a>')){
+                        if (!licenseNote.includes('<a href="#' + licenseTypes[i] + '">' + licenseTypes[i] + '</a>')) {
                             licenseNote += '<a href="#' + licenseTypes[i] + '">' + licenseTypes[i] + '</a>';
                         }
                     }
@@ -110,6 +124,16 @@
                         });
 
                         licenseNote += '</table>';
+
+                        if(licenses[licenseTypes[j]] != null  && licenses[licenseTypes[j]] !== ""){
+
+                            let licenseText = licenses[licenseTypes[j]].replaceAll("\n", "<br/>");
+
+                            if(!licenseNote.includes('<p style="text-align: left">' + licenseText + '</p>')){
+                                licenseNote += '<br/><p style="text-align: left"><b>License text:</b></p><br/>';
+                                licenseNote += '<p style="text-align: left">' + licenseText + '</p>';
+                            }
+                        }
                     }
 
                     $('#licenseNotes').append(licenseNote);
@@ -117,7 +141,7 @@
                     sortTable(1);
                     sortTable(0);
                 });
-        });
+            });
 
         function sortTable(columnToSort) {
             let table, rows, switching, i, x, y, shouldSwitch;
