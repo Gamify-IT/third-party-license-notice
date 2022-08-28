@@ -10,7 +10,10 @@
     <style>
         table {
             margin: 0 auto;
-            width: 60%;
+            width: 80%;
+            word-wrap: break-word;
+            word-break: break-all;
+            border-collapse: collapse;
         }
 
         h1 {
@@ -113,10 +116,10 @@
                                 let avoidDuplicatesString = "";
                                 avoidDuplicatesString += '<tr>';
                                 avoidDuplicatesString += '<td>' + value.compName.replaceAll("\n", "<br/>") + '</td>';
-                                avoidDuplicatesString += '<td>' + value.compVersion.replaceAll("\n", "<br/>")+ '</td>';
-                                if(value.copyrightSource !== ""){
-                                    avoidDuplicatesString += '<td><a href="'+ value.copyrightSource + '" target="_blank" style="text-decoration: none;">' + value.copyright.replaceAll("\n", "<br/>") + '</a></td>';
-                                }else{
+                                avoidDuplicatesString += '<td>' + value.compVersion.replaceAll("\n", "<br/>") + '</td>';
+                                if (value.copyrightSource !== "") {
+                                    avoidDuplicatesString += '<td><a href="' + value.copyrightSource + '" target="_blank" style="text-decoration: none;">' + value.copyright.replaceAll("\n", "<br/>") + '</a></td>';
+                                } else {
                                     avoidDuplicatesString += '<td>' + value.copyright.replaceAll("\n", "<br/>") + '</td>';
                                 }
                                 avoidDuplicatesString += '</tr>';
@@ -129,11 +132,11 @@
 
                         licenseNote += '</table>';
 
-                        if(licensesTexts[licenseTypes[j]] != null  && licensesTexts[licenseTypes[j]] !== ""){
+                        if (licensesTexts[licenseTypes[j]] != null && licensesTexts[licenseTypes[j]] !== "") {
 
                             let licenseText = licensesTexts[licenseTypes[j]].replaceAll("\n", "<br/>");
 
-                            if(!licenseNote.includes('<p style="text-align: left">' + licenseText + '</p>')){
+                            if (!licenseNote.includes('<p style="text-align: left">' + licenseText + '</p>')) {
                                 licenseNote += '<br/><p style="text-align: left"><b>License text:</b></p><br/>';
                                 licenseNote += '<p style="text-align: left">' + licenseText + '</p>';
                             }
@@ -145,10 +148,10 @@
                     sortTable(1, licenseTypes);
                     sortTable(0, licenseTypes);
                 });
-            });
+        });
 
         function sortTable(columnToSort, licenseTypes) {
-            for(let j = 0; j < licenseTypes.length; j++){
+            for (let j = 0; j < licenseTypes.length; j++) {
                 let table, rows, switching, i, x, y, shouldSwitch;
                 table = document.getElementById("Table-" + licenseTypes[j]);
                 switching = true;
