@@ -161,5 +161,11 @@
 
   {"licTypeName": "MIT", "compName": "readthedocs.org", "compVersion": "8.4.1", "copyright": "Copyright (c) 2010-2021 Read the Docs, Inc. & contributors", "copyrightSource": "https://github.com/readthedocs/readthedocs.org/blob/8.4.1/LICENSE"},
 
-  {"licTypeName": "Unity Companion License", "compName": "Unity", "compVersion": "2021.3.2f1", "copyright": "Copyright (c) 2019 Unity Technologies ApS.", "copyrightSource": "https://docs.unity3d.com/Packages/com.unity.inputsystem@0.2/license/LICENSE.html"}
+  {"licTypeName": "Unity Companion License", "compName": "Unity", "compVersion": "2021.3.2f1", "copyright": "Copyright (c) 2019 Unity Technologies ApS.", "copyrightSource": "https://docs.unity3d.com/Packages/com.unity.inputsystem@0.2/license/LICENSE.html"},
+
+  {"licTypeName": "SIL Open Font Licens - 1.1", "compName": "Oswald-Bold", "compVersion": "-", "copyright": "Copyright (c) 2011-2012, Vernon Adams (vern@newtypography.co.uk), with Reserved Font Names 'Oswald'", "copyrightSource": "https://github.com/Gamify-IT/overworld/blob/923a3c3be0d7939699dc967a9bbbf082eeee443d/Assets/TextMesh%20Pro/Examples%20%26%20Extras/Fonts/Oswald-Bold%20-%20OFL.txt"},
+  {"licTypeName": "SIL Open Font Licens - 1.1", "compName": "Bangers", "compVersion": "-", "copyright": "Copyright (c) 2010 by vernon adams (vern@newtypography.co.uk),\nwith Reserved Font Name Bangers.", "copyrightSource": "https://github.com/Gamify-IT/overworld/blob/923a3c3be0d7939699dc967a9bbbf082eeee443d/Assets/TextMesh%20Pro/Examples%20%26%20Extras/Fonts/Bangers%20-%20OFL.txt"},
+  {"licTypeName": "SIL Open Font Licens - 1.1", "compName": "Anton", "compVersion": "-", "copyright": "Copyright (c) 2011, Vernon Adams (vern@newtypography.co.uk),\nwith Reserved Font Name Anton.", "copyrightSource": "https://github.com/Gamify-IT/overworld/blob/923a3c3be0d7939699dc967a9bbbf082eeee443d/Assets/TextMesh%20Pro/Examples%20%26%20Extras/Fonts/Anton%20OFL.txt"},
+  {"licTypeName": "SIL Open Font Licens - 1.1", "compName": "LiberationSans", "compVersion": "-", "copyright": "Digitized data copyright (c) 2010 Google Corporation\n\twith Reserved Font Arimo, Tinos and Cousine.\nCopyright (c) 2012 Red Hat, Inc.\n\twith Reserved Font Name Liberation.", "copyrightSource": "https://github.com/Gamify-IT/overworld/blob/77ba7334d66037099788bc4666b1de7dbdd221d8/Assets/TextMesh%20Pro/Fonts/LiberationSans%20-%20OFL.txt"},
+  {"licTypeName": "ISC", "compName": "tile-palette-migration.js", "compVersion": "1.0.0", "copyright": "TODO", "copyrightSource": ""}
 ]
