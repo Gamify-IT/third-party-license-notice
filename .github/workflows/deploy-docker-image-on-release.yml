@@ -4,7 +4,6 @@ on:
   push:
     branches:
       - "main"
-      - "feature/add-thrid-party-license-notice-site"
     tags:
       - "v*"
   pull_request:
