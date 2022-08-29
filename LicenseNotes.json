@@ -169,7 +169,7 @@
   {"licTypeName": "SIL Open Font License - 1.1", "compName": "LiberationSans", "compVersion": "-", "copyright": "Digitized data copyright (c) 2010 Google Corporation\n\twith Reserved Font Arimo, Tinos and Cousine.\nCopyright (c) 2012 Red Hat, Inc.\n\twith Reserved Font Name Liberation.", "copyrightSource": "https://github.com/Gamify-IT/overworld/blob/77ba7334d66037099788bc4666b1de7dbdd221d8/Assets/TextMesh%20Pro/Fonts/LiberationSans%20-%20OFL.txt"},
   {"licTypeName": "ISC", "compName": "tile-palette-migration.js", "compVersion": "1.0.0", "copyright": "unknown", "copyrightSource": ""},
 
-  {"licTypeName": "GPL v2 with Classpath Exception", "compName": "java", "compVersion": "17", "copyright": "Copyright (C) 1989, 1991 Free Software Foundation, Inc.\n59 Temple Place, Suite 330, Boston, MA 02111-1307 USA", "copyrightSource": "https://openjdk.org/legal/gplv2+ce.html"}
+  {"licTypeName": "GPL v2 with Classpath Exception", "compName": "java", "compVersion": "17", "copyright": "Copyright (C) 1989, 1991 Free Software Foundation, Inc.\n59 Temple Place, Suite 330, Boston, MA 02111-1307 USA", "copyrightSource": "https://openjdk.org/legal/gplv2+ce.html"},
   {"licTypeName": "Apache-2.0", "compName": "com.github.tomakehurst:wiremock", "compVersion": "2.27.2", "copyright": "unknown", "copyrightSource": ""}
 
 ]
