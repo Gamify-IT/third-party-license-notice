@@ -113,6 +113,10 @@
   {"licTypeName": "Apache-2.0", "compName": "com.hubspot.maven.plugins:prettier-maven-plugin", "compVersion": "0.16", "copyright": "unknown", "copyrightSource": ""},
   {"licTypeName": "Apache-2.0", "compName": "org.apache.maven.plugins:maven-jar-plugin", "compVersion": "3.2.2", "copyright": "Copyright 2002-2022 The Apache Software Foundation", "copyrightSource": "https://repo1.maven.org/maven2/org/apache/maven/plugins/maven-jar-plugin/3.2.2/maven-jar-plugin-3.2.2.jar"},
   {"licTypeName": "Apache-2.0", "compName": "org.apache.maven.plugins:maven-compiler-plugin", "compVersion": "3.5.1", "copyright": "Copyright 2001-2016 The Apache Software Foundation", "copyrightSource": "https://repo1.maven.org/maven2/org/apache/maven/plugins/maven-compiler-plugin/3.5.1/maven-compiler-plugin-3.5.1.jar"},
+  {"licTypeName": "Apache-2.0", "compName": "org.springframework.cloud:spring-cloud-starter-openfeign", "compVersion": "3.1.3", "copyright": "Copyright (c) 2012-2022 Pivotal, Inc.", "copyrightSource": "https://repo1.maven.org/maven2/org/springframework/cloud/spring-cloud-starter-openfeign/3.1.3/spring-cloud-starter-openfeign-3.1.3.jar"},
+  {"licTypeName": "MIT", "compName": "org.testcontainers:testcontainers", "compVersion": "1.17.3", "copyright": "Copyright (c) 2015-2019 Richard North", "copyrightSource": "https://github.com/testcontainers/testcontainers-java/blob/master/LICENSE"},
+  {"licTypeName": "MIT", "compName": "org.testcontainers:junit-jupiter", "compVersion": "1.17.3", "copyright": "Copyright (c) 2015-2019 Richard North", "copyrightSource": "https://github.com/testcontainers/testcontainers-java/blob/master/LICENSE"},
+  {"licTypeName": "MIT", "compName": "org.testcontainers:postgresql", "compVersion": "1.17.3", "copyright": "Copyright (c) 2015-2019 Richard North", "copyrightSource": "https://github.com/testcontainers/testcontainers-java/blob/master/LICENSE"},
 
   {"licTypeName": "MIT", "compName": "@types/bootstrap", "compVersion": "5.1.12", "copyright": "unknown", "copyrightSource": ""},
 
