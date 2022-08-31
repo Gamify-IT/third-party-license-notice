@@ -149,7 +149,6 @@
   {"licTypeName": "BSD-3-Clause", "compName": "pandas", "compVersion": "1.4.3", "copyright": "Copyright (c) 2008-2011, AQR Capital Management, LLC, Lambda Foundry, Inc. and PyData Development Team", "copyrightSource": "https://github.com/pandas-dev/pandas/blob/v1.4.3/LICENSE"},
   {"licTypeName": "PSF", "compName": "matplotlib.pyplot", "compVersion": "3.5.3", "copyright": "© Copyright 2002 - 2012 John Hunter, Darren Dale, Eric Firing, Michael Droettboom and the Matplotlib development team; 2012 - 2022 The Matplotlib development team.", "copyrightSource": "https://matplotlib.org/stable/users/project/license.html"},
   {"licTypeName": "BSD-3-Clause", "compName": "numpy", "compVersion": "1.23", "copyright": "Copyright (c) 2005-2022, NumPy Developers.", "copyrightSource": "https://numpy.org/doc/stable/license.html"},
-  {"licTypeName": "Python-1.6", "compName": "re", "compVersion": "3.10", "copyright": "Copyright (c) 1998-2001 by Secret Labs AB.  All rights reserved.", "copyrightSource": "https://github.com/blackberry/Python/blob/master/Python-3/Lib/re.py"},
 
   {"licTypeName": "MIT", "compName": "bootstrap-vue-3", "compVersion": "0.1.13", "copyright": "Copyright (c) 2021 BootstrapVue3", "copyrightSource": "https://github.com/cdmoro/bootstrap-vue-3/blob/v0.1.13/LICENSE"},
   {"licTypeName": "MIT", "compName": "vue", "compVersion": "3.2.37", "copyright": "Copyright (c) 2018-present, Yuxi (Evan) You", "copyrightSource": "https://github.com/vuejs/core/blob/v3.2.37/LICENSE"},
@@ -182,8 +181,10 @@
   {"licTypeName": "ISC", "compName": "tile-palette-migration.js", "compVersion": "1.0.0", "copyright": "unknown", "copyrightSource": ""},
 
   {"licTypeName": "GPL v2 with Classpath Exception", "compName": "java", "compVersion": "17", "copyright": "Copyright (C) 1989, 1991 Free Software Foundation, Inc.\n59 Temple Place, Suite 330, Boston, MA 02111-1307 USA", "copyrightSource": "https://openjdk.org/legal/gplv2+ce.html"},
+  {"licTypeName": "Apache-2.0", "compName": "com.github.tomakehurst:wiremock", "compVersion": "2.27.2", "copyright": "unknown", "copyrightSource": ""},
   {"licTypeName": "PSF", "compName": "python", "compVersion": "3.10.6", "copyright": "Copyright © 2001-2022 Python Software Foundation; All Rights Reserved", "copyrightSource": "https://docs.python.org/3/license.html#psf-license-agreement-for-python-release"},
   {"licTypeName": "Apache-2.0", "compName": "com.github.tomakehurst:wiremock", "compVersion": "2.27.2", "copyright": "unknown", "copyrightSource": ""},
-  {"licTypeName": "Apache-2.0", "compName": "Apache JMeter", "compVersion": "5.5-rc3", "copyright": "unknown", "copyrightSource": "https://github.com/apache/jmeter/blob/v5.5-rc3/LICENSE"}
+  {"licTypeName": "Apache-2.0", "compName": "Apache JMeter", "compVersion": "5.5-rc3", "copyright": "unknown", "copyrightSource": "https://github.com/apache/jmeter/blob/v5.5-rc3/LICENSE"},
 
+  {"licTypeName:": "Apache-2.0", "compName": "google-auth-library-python", "compVersion": "2.11", "copyright": "Copyright 2016 Google LLC", "copyrightSource": "https://github.com/googleapis/google-auth-library-python/blob/v2.11.0/google/oauth2/credentials.py"}
 ]
