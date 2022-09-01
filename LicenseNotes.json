@@ -128,5 +128,5 @@
   {"licTypeName": "Apache-2.0", "compName": "com.github.tomakehurst:wiremock", "compVersion": "2.27.2", "copyright": "unknown", "copyrightSource": ""},
   {"licTypeName": "Apache-2.0", "compName": "Apache JMeter", "compVersion": "5.5-rc3", "copyright": "unknown", "copyrightSource": "https://github.com/apache/jmeter/blob/v5.5-rc3/LICENSE"},
 
-  {"licTypeName:": "Apache-2.0", "compName": "google-auth-library-python", "compVersion": "2.11", "copyright": "Copyright 2016 Google LLC", "copyrightSource": "https://github.com/googleapis/google-auth-library-python/blob/v2.11.0/google/oauth2/credentials.py"}
+  {"licTypeName": "Apache-2.0", "compName": "google-auth-library-python", "compVersion": "2.11", "copyright": "Copyright 2016 Google LLC", "copyrightSource": "https://github.com/googleapis/google-auth-library-python/blob/v2.11.0/google/oauth2/credentials.py"}
 ]
