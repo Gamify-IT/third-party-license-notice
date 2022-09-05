@@ -126,7 +126,7 @@
   {"licTypeName": "GPL v2 with Classpath Exception", "compName": "java", "compVersion": "17", "copyright": "Copyright (C) 1989, 1991 Free Software Foundation, Inc.\n59 Temple Place, Suite 330, Boston, MA 02111-1307 USA", "copyrightSource": "https://openjdk.org/legal/gplv2+ce.html"},
   {"licTypeName": "PSF", "compName": "python", "compVersion": "3.10.6", "copyright": "Copyright © 2001-2022 Python Software Foundation; All Rights Reserved", "copyrightSource": "https://docs.python.org/3/license.html#psf-license-agreement-for-python-release"},
   {"licTypeName": "Apache-2.0", "compName": "com.github.tomakehurst:wiremock", "compVersion": "2.27.2", "copyright": "unknown", "copyrightSource": ""},
-  {"licTypeName": "Apache-2.0", "compName": "Apache JMeter", "compVersion": "5.5-rc3", "copyright": "unknown", "copyrightSource": "https://github.com/apache/jmeter/blob/v5.5-rc3/LICENSE"},
+  {"licTypeName": "Apache-2.0", "compName": "Apache JMeter", "compVersion": "5.5-rc3", "copyright": "Copyright 1998-2022 The Apache Software Foundation", "copyrightSource": "https://github.com/apache/jmeter/blob/v5.5-rc3/NOTICE"},
 
   {"licTypeName": "Apache-2.0", "compName": "google-auth-library-python", "compVersion": "2.11", "copyright": "Copyright 2016 Google LLC", "copyrightSource": "https://github.com/googleapis/google-auth-library-python/blob/v2.11.0/google/oauth2/credentials.py"},
   {"licTypeName": "MIT", "compName": "com.auth0-jwks-rsa", "compVersion": "0.21.1", "copyright": "Copyright (c) 2016 Auth0, Inc. <support@auth0.com> (http://auth0.com)", "copyrightSource": "https://github.com/auth0/jwks-rsa-java/blob/0.21.1/LICENSE"},
