@@ -103,6 +103,8 @@
   {"licTypeName": "MIT", "compName": "sass", "compVersion": "1.26.11", "copyright": "Copyright (c) 2016, Google Inc.", "copyrightSource": "https://github.com/sass/dart-sass/blob/1.26.11/LICENSE"},
   {"licTypeName": "MIT", "compName": "sass-loader", "compVersion": "10.0.2", "copyright": "Copyright JS Foundation and other contributors", "copyrightSource": "https://github.com/webpack-contrib/sass-loader/blob/v10.0.2/LICENSE"},
   {"licTypeName": "MIT", "compName": "vue-eslint-parser", "compVersion": "9.0.3", "copyright": "Copyright (c) 2016 Toru Nagashima", "copyrightSource": "https://github.com/vuejs/vue-eslint-parser/blob/v9.0.3/LICENSE"},
+  {"licTypeName": "Apache-2.0", "compName": "org.springframework.boot:spring-boot-starter-validation", "compVersion": "2.7.3", "copyright": "Copyright (c) 2012-2022 Pivotal, Inc.", "copyrightSource": "https://repo1.maven.org/maven2/org/springframework/boot/spring-boot-starter-validation/2.7.3/spring-boot-starter-validation-2.7.3.jar"},
+  
 
   {"licTypeName": "Apache-2.0", "compName": "org.springframework.cloud:spring-cloud-starter-openfeign", "compVersion": "3.1.3", "copyright": "Copyright 2014-2021 the original author or authors.", "copyrightSource": "https://repo1.maven.org/maven2/org/springframework/cloud/spring-cloud-starter-openfeign/3.1.3/spring-cloud-starter-openfeign-3.1.3.pom"},
   {"licTypeName": "MIT", "compName": "com.auth0:java-jwt", "compVersion": "3.19.2", "copyright": "Copyright (c) 2015 Auth0, Inc. <support@auth0.com> (http://auth0.com)", "copyrightSource": "https://github.com/auth0/java-jwt/blob/3.19.2/LICENSE"},
