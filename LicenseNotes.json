@@ -148,5 +148,7 @@
   {"licTypeName": "MIT", "compName": "loader-utils", "compVersion": "2.0.2", "copyright": "Copyright JS Foundation and other contributors", "copyrightSource": "https://github.com/webpack/loader-utils/blob/v2.0.2/LICENSE"},
   {"licTypeName": "MIT", "compName": "loader-utils", "compVersion": "2.0.4", "copyright": "Copyright JS Foundation and other contributors", "copyrightSource": "https://github.com/webpack/loader-utils/blob/v2.0.4/LICENSE"},
   {"licTypeName": "MIT", "compName": "loader-utils", "compVersion": "1.4.0", "copyright": "Copyright JS Foundation and other contributors", "copyrightSource": "https://github.com/webpack/loader-utils/blob/v1.4.2/LICENSE"},
-  {"licTypeName": "MIT", "compName": "loader-utils", "compVersion": "1.4.2", "copyright": "Copyright JS Foundation and other contributors", "copyrightSource": "https://github.com/webpack/loader-utils/blob/v1.4.0/LICENSE"}
+  {"licTypeName": "MIT", "compName": "loader-utils", "compVersion": "1.4.2", "copyright": "Copyright JS Foundation and other contributors", "copyrightSource": "https://github.com/webpack/loader-utils/blob/v1.4.0/LICENSE"},
+
+  {"licTypeName": "CC-BY-4.0", "compName": "Heropatterns: Circuit Board", "compVersion": "-", "copyright": "Steve Schoger", "copyrightSource": "https://heropatterns.com/"}
 ]
