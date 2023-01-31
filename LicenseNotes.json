@@ -150,5 +150,7 @@
   {"licTypeName": "MIT", "compName": "loader-utils", "compVersion": "1.4.0", "copyright": "Copyright JS Foundation and other contributors", "copyrightSource": "https://github.com/webpack/loader-utils/blob/v1.4.2/LICENSE"},
   {"licTypeName": "MIT", "compName": "loader-utils", "compVersion": "1.4.2", "copyright": "Copyright JS Foundation and other contributors", "copyrightSource": "https://github.com/webpack/loader-utils/blob/v1.4.0/LICENSE"},
 
-  {"licTypeName": "CC-BY-4.0", "compName": "Heropatterns: Circuit Board", "compVersion": "-", "copyright": "Steve Schoger", "copyrightSource": "https://heropatterns.com/"}
+  {"licTypeName": "CC-BY-4.0", "compName": "Heropatterns: Circuit Board", "compVersion": "-", "copyright": "Steve Schoger", "copyrightSource": "https://heropatterns.com/"},
+  {"licTypeName": "MIT", "compName": "vue3-apexcharts", "compVersion": "1.4.1", "copyright": "Copyright (c) 2018 ApexCharts", "copyrightSource": "https://github.com/apexcharts/vue3-apexcharts/blob/main/LICENSE"}
+
 ]
