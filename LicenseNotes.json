@@ -153,6 +153,27 @@
   {"licTypeName": "CC-BY-4.0", "compName": "Heropatterns: Circuit Board", "compVersion": "-", "copyright": "Steve Schoger", "copyrightSource": "https://heropatterns.com/"},
   {"licTypeName": "MIT", "compName": "vue3-apexcharts", "compVersion": "1.4.1", "copyright": "Copyright (c) 2018 ApexCharts", "copyrightSource": "https://github.com/apexcharts/vue3-apexcharts/blob/main/LICENSE"},
   {"licTypeName": "MIT", "compName": "marked", "compVersion": "4.2.12", "copyright": "Copyright (c) 2018+, MarkedJS  Copyright (c) 2011-2018, Christopher Jeffrey", "copyrightSource": "https://github.com/markedjs/"},
-  {"licTypeName": "Apache-2.0", "compName": "org.liquibase:liquibase-core", "compVersion": "4.19.0", "copyright": "Apache Commons Lang \n Copyright 2001-2021 The Apache Software Foundation \n This product includes software developed at \n The Apache Software Foundation (https://www.apache.org/).", "copyrightSource": "https://repo1.maven.org/maven2/org/liquibase/liquibase-core/4.19.0/liquibase-core-4.19.0.jar"}
+  {"licTypeName": "Apache-2.0", "compName": "org.liquibase:liquibase-core", "compVersion": "4.19.0", "copyright": "Apache Commons Lang \n Copyright 2001-2021 The Apache Software Foundation \n This product includes software developed at \n The Apache Software Foundation (https://www.apache.org/).", "copyrightSource": "https://repo1.maven.org/maven2/org/liquibase/liquibase-core/4.19.0/liquibase-core-4.19.0.jar"},
 
+  {"licTypeName": "MIT", "compName": "de.uni-stuttgart.gamify-it:authentification-validator", "compVersion": "v1.0.0", "copyright": "Copyright (c) 2022 GamifyIT – A Web-based Gaming Platform for Computer Science Education in the First Semesters", "copyrightSource": "https://github.com/Gamify-IT/authentification-validator/blob/v1.0.0/LICENSE"},
+  {"licTypeName": "Apache-2.0", "compName": "org.springframework:sprint-context", "compVersion": "5.3.21", "copyright": "Copyright (c) 2002-2022 Pivotal, Inc.", "copyrightSource": "https://repo1.maven.org/maven2/org/springframework/spring-context/5.3.21/spring-context-5.3.21.jar"},
+  {"licTypeName": "Apache-2.0", "compName": "org.springframework.boot:spring-boot", "compVersion": "2.7.1", "copyright": "Copyright (c) 2012-2022 Pivotal, Inc.", "copyrightSource": "https://repo1.maven.org/maven2/org/springframework/boot/spring-boot/2.7.1/spring-boot-2.7.1.jar"},
+  {"licTypeName": "Apache-2.0", "compName": "org.springframework.boot:spring-boot-starter-websocket", "compVersion": "3.0.5", "copyright": "Copyright (c) 2012-2023 VMware, Inc.", "copyrightSource": "https://repo1.maven.org/maven2/org/springframework/boot/spring-boot-starter-websocket/3.0.5/spring-boot-starter-websocket-3.0.5.jar"},
+  {"licTypeName": "GPL-3.0", "compName": "Sherry", "compVersion": "1.12.0", "copyright": "unknown", "copyrightSource": "https://github.com/eikek/sharry/blob/v1.12.0/LICENSE.txt"},
+  {"licTypeName": "MIT", "compName": "org.webjars:webjars-locator-core", "compVersion": "0.52", "copyright": "Copyright (c) 2013 James Ward", "copyrightSource": "https://github.com/webjars/webjars-locator-core/blob/webjars-locator-core-0.52/LICENSE.md"},
+  {"licTypeName": "MIT", "compName": "org.webjars:sockjs-client", "compVersion": "1.5.1", "copyright": "Copyright (c) 2011-2018 The sockjs-client Authors.", "copyrightSource": "https://github.com/sockjs/sockjs-client/blob/v1.5.1/LICENSE"},
+  {"licTypeName": "Apache-2.0", "compName": "org.webjars:stomp-websocket ", "compVersion": "2.3.4", "copyright": "unknown", "copyrightSource": "https://github.com/jmesnil/stomp-websocket/blob/2.3.4/LICENSE.txt"},
+  {"licTypeName": "MIT", "compName": "net", "compVersion": "1.0.2", "copyright": "Copyright 2016 Sleepless Software Inc. All rights reserved.", "copyrightSource": "https://github.com/sleeplessinc/net/blob/master/LICENSE"},
+  {"licTypeName": "", "compName": "", "compVersion": "", "copyright": "", "copyrightSource": ""},
+  {"licTypeName": "", "compName": "", "compVersion": "", "copyright": "", "copyrightSource": ""},
+  {"licTypeName": "", "compName": "", "compVersion": "", "copyright": "", "copyrightSource": ""},
+  {"licTypeName": "", "compName": "", "compVersion": "", "copyright": "", "copyrightSource": ""},
+  {"licTypeName": "", "compName": "", "compVersion": "", "copyright": "", "copyrightSource": ""},
+  {"licTypeName": "", "compName": "", "compVersion": "", "copyright": "", "copyrightSource": ""},
+  {"licTypeName": "", "compName": "", "compVersion": "", "copyright": "", "copyrightSource": ""},
+  {"licTypeName": "", "compName": "", "compVersion": "", "copyright": "", "copyrightSource": ""},
+  {"licTypeName": "", "compName": "", "compVersion": "", "copyright": "", "copyrightSource": ""},
+  {"licTypeName": "", "compName": "", "compVersion": "", "copyright": "", "copyrightSource": ""},
+  {"licTypeName": "", "compName": "", "compVersion": "", "copyright": "", "copyrightSource": ""},
+  {"licTypeName": "", "compName": "", "compVersion": "", "copyright": "", "copyrightSource": ""}
 ]
