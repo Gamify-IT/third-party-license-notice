@@ -209,5 +209,7 @@
   {"licTypeName": "Apache-2.0", "compName": "rsa", "compVersion": "4.8", "copyright": "Copyright 2011 Sybren A. Stüvel <sybren@stuvel.eu>", "copyrightSource": "https://github.com/sybrenstuvel/python-rsa/blob/version-4.8/LICENSE"},
   {"licTypeName": "MIT", "compName": "six", "compVersion": "1.16.0", "copyright": "Copyright (c) 2010-2020 Benjamin Peterson", "copyrightSource": "https://github.com/benjaminp/six/blob/1.16.0/LICENSE"},
   {"licTypeName": "Apache-2.0", "compName": "uritemplate", "compVersion": "4.1.1", "copyright": "unknown", "copyrightSource": ""},
-  {"licTypeName": "MIT", "compName": "urllib3", "compVersion": "1.26.9", "copyright": "Copyright (c) 2008-2020 Andrey Petrov and contributors (see CONTRIBUTORS.txt)", "copyrightSource": "https://github.com/urllib3/urllib3/blob/1.26.9/LICENSE.txt"}
+  {"licTypeName": "MIT", "compName": "urllib3", "compVersion": "1.26.9", "copyright": "Copyright (c) 2008-2020 Andrey Petrov and contributors (see CONTRIBUTORS.txt)", "copyrightSource": "https://github.com/urllib3/urllib3/blob/1.26.9/LICENSE.txt"},
+  {"licTypeName": "MIT", "compName": "tsparticles", "compVersion": "2.9.3", "copyright": "Copyright (c) 2020 Matteo Bruni", "copyrightSource": "https://github.com/matteobruni/tsparticles/blob/wordpress-particles%402.9.3/LICENSE"},
+  {"licTypeName": "MIT", "compName": "vue3-particles", "compVersion": "2.9.3", "copyright": "Copyright (c) 2020 Matteo Bruni", "copyrightSource": "https://github.com/matteobruni/tsparticles/blob/wordpress-particles%402.9.3/LICENSE"}
 ]
