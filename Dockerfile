@@ -1,4 +1,4 @@
-FROM nginx:alpine as production-build
+FROM nginx:alpine AS production-build
 
 COPY index.html /usr/share/nginx/html
 COPY LicenseNotes.json /usr/share/nginx/html
