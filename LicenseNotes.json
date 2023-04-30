@@ -213,7 +213,7 @@
   {"licTypeName": "MIT", "compName": "tsparticles", "compVersion": "2.9.3", "copyright": "Copyright (c) 2020 Matteo Bruni", "copyrightSource": "https://github.com/matteobruni/tsparticles/blob/wordpress-particles%402.9.3/LICENSE"},
   {"licTypeName": "MIT", "compName": "vue3-particles", "compVersion": "2.9.3", "copyright": "Copyright (c) 2020 Matteo Bruni", "copyrightSource": "https://github.com/matteobruni/tsparticles/blob/wordpress-particles%402.9.3/LICENSE"},
 
-  {"licTypeName": "MIT", "compName": "@types/katex", "compVersion": "0.16.0", "copyright": "unknown", "copyrightSource": ""},
+  {"licTypeName": "MIT", "compName": "@types/katex", "compVersion": "0.16.0", "copyright": "unknown", "copyrightSource": "https://github.com/DefinitelyTyped/DefinitelyTyped/blob/master/LICENSE"},
   {"licTypeName": "MIT", "compName": "katex", "compVersion": "0.16.6", "copyright": "Copyright (c) 2013-2020 Khan Academy and other contributors", "copyrightSource": "https://github.com/KaTeX/KaTeX/blob/v0.16.6/LICENSE"},
   {"licTypeName": "MIT", "compName": "marked", "compVersion": "4.3.0", "copyright": "Copyright (c) 2018+, MarkedJS (https://github.com/markedjs/)\nCopyright (c) 2011-2018, Christopher Jeffrey (https://github.com/chjj/)", "copyrightSource": "https://github.com/markedjs/marked/blob/v4.3.0/LICENSE.md"},
   {"licTypeName": "MIT", "compName": "marked-katex-extension", "compVersion": "2.0.1", "copyright": "Copyright (c) 2021 @markedjs", "copyrightSource": "https://github.com/UziTech/marked-katex-extension/blob/v2.0.1/LICENSE"}
