@@ -94,11 +94,13 @@
                     licenseTypes.sort();
 
                     licenseNote += '<div id="links">';
+                    licenseNote += '<ul style="list-style-type: none;">';
                     for (let i = 0; i < licenseTypes.length; i++) {
                         if (!licenseNote.includes('<a href="#' + licenseTypes[i] + '">' + licenseTypes[i] + '</a>')) {
-                            licenseNote += '<a href="#' + licenseTypes[i] + '">' + licenseTypes[i] + '</a>';
+                            licenseNote += '<li style="display: inline-block; padding: 0.5%;"><a href="#' + licenseTypes[i] + '">' + licenseTypes[i] + '</a></li>';
                         }
                     }
+                    licenseNote +=  '</ul>';
                     licenseNote += '</div>';
 
                     for (let j = 0; j < licenseTypes.length; j++) {
