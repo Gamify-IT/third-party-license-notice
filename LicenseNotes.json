@@ -140,7 +140,7 @@
   {"licTypeName": "Apache-2.0", "compName": "org.apache.logging.log4j:log4j-to-slf4j", "compVersion": "2.18.0", "copyright": "Copyright 1999-2022 The Apache Software Foundation", "copyrightSource": "https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-to-slf4j/2.18.0/log4j-to-slf4j-2.18.0.jar"},
   {"licTypeName": "Apache-2.0", "compName": "org.springframework:sprint-context", "compVersion": "5.3.22", "copyright": "Copyright (c) 2002-2022 Pivotal, Inc.", "copyrightSource": "https://repo1.maven.org/maven2/org/springframework/spring-context/5.3.22/spring-context-5.3.22.jar"},
   {"licTypeName": "Apache-2.0", "compName": "org.springframework.boot:sprint-boot", "compVersion": "2.7.1", "copyright": "Copyright (c) 2012-2022 Pivotal, Inc.", "copyrightSource": "https://repo1.maven.org/maven2/org/springframework/boot/spring-boot/2.7.1/spring-boot-2.7.1.jar"},
-
+  {"licTypeName": "Apache-2.0", "compName": "jackson-datatype-jsr310", "compVersion": "2.15.0", "copyright": "unknown", "copyrightSource": "https://mvnrepository.com/artifact/com.fasterxml.jackson.datatype/jackson-datatype-jsr310/2.15.0"},
 
   {"licTypeName": "Protobuf-License", "compName": "protobuf", "compVersion": "4.21.2", "copyright": "Copyright 2008 Google Inc.", "copyrightSource": "https://github.com/protocolbuffers/protobuf/blob/main/LICENSE"},
   {"licTypeName": "Protobuf-License", "compName": "protobuf", "compVersion": "4.21.6", "copyright": "Copyright 2008 Google Inc.", "copyrightSource": "https://github.com/protocolbuffers/protobuf/blob/main/LICENSE"},
