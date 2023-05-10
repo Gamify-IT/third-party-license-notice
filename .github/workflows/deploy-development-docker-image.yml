@@ -1,21 +1,16 @@
-name: Create and publish a Docker image on Release
+name: Create and publish development Docker image
 
 on:
   push:
-    branches:
+    branches-ignore:
       - "main"
-    tags:
-      - "v*"
-  pull_request:
-    branches:
-      - "main"
+  workflow_dispatch:
 
 env:
   REGISTRY: ghcr.io
   IMAGE_NAME: ${{ github.repository }}
 
 jobs:
-
   build-and-push-image:
     runs-on: self-hosted
     permissions:
@@ -39,6 +34,7 @@ jobs:
         uses: docker/metadata-action@v4
         with:
           images: ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}
+          tags: type=raw,value=development
 
       - name: Build and push Docker image
         uses: docker/build-push-action@v3
@@ -47,4 +43,3 @@ jobs:
           push: ${{ github.event_name != 'pull_request' }}
           tags: ${{ steps.meta.outputs.tags }}
           labels: ${{ steps.meta.outputs.labels }}
-       
